@@ -1,0 +1,45 @@
+.list {
+    list-style: none;
+    padding: 0;
+}
+        
+.item {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.item:first-child {
+    border-top: 1px solid #ccc;
+}
+
+.paragraph {
+    margin-right: 10px;
+}
+
+.button {
+    font-size: 16px;
+    padding: 6px 12px;
+    background-color: #ff3b3b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover {
+    scale: 104%;
+    opacity: 0.90;
+    text-decoration: none;
+    transition: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:active {
+    scale: 96%;
+    /*border: 5px solid rgb(223, 202, 13);*/
+    transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
